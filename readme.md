@@ -11,7 +11,7 @@ How to get going..
 > git clone https://github.com/Chadtech/elm-gulp-browserify-boilerplate new-project
 > cd new-project
 > npm install
-> elm package install
+> elm package install --yes
 > gulp
 
 then open up http://localhost:2984
