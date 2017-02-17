@@ -36,3 +36,18 @@ source/       -- Source files
 gulpFile.js
 server.js
 
+
+## Dist
+
+To compile to `dist` type into your terminal..
+
+```
+gulp dist
+```
+
+It will run the js command without debug on. Its pretty sparse in what it does, but if you have your own dist operations, you can put them in that gulp task.
+
+
+## Elm Format
+
+There is an [Elm-Format](https://github.com/avh4/elm-format) task in this gulp file. Its not on by default, but you can switch to it by uncommenting a little code. 
