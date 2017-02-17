@@ -19,8 +19,8 @@ var paths = {
   js: "./source/*.js"
 };
 
+
 var production = false;
-var formatElm = true;
 
 
 gulp.task("js", function() {
