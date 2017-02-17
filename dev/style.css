@@ -1,0 +1,18 @@
+body {
+  background-color: #fcf7f9;
+}
+.input-field {
+  font-family: Arial;
+  color: #030907;
+  font-size: 2em;
+  background-color: #f9fcfb;
+  border: 2px solid #d0b6a9;
+  outline: none;
+}
+.point {
+  font-family: Arial;
+  color: #030907;
+}
+.point.big {
+  font-size: 4em;
+}
