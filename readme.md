@@ -20,17 +20,17 @@ then open up http://localhost:2984
 
 This repo is organized as ..
 ```
-dist/         -- Your production-ready app
-dev/          -- Your development app
+dist/                     -- Your production-ready app
+dev/                      -- Your development app
   index.html
-  assets/     -- Where you can put images, fonts, etc.
-source/       -- Source files
-  app.js      -- Loads your elm file, and handles ports
+  assets/                 -- Where you can put images, fonts, etc.
+source/                   -- Source files
+  app.js                  -- Loads your elm file, and handles ports
   Main.elm
   *.elm
-  main.styl   -- First style file, concat([main.style, .. ])
+  main.styl               -- First style file, concat([main.style, .. ])
   View/
-    Main.elm  -- Your main view file
+    Main.elm              -- Your main view file
     point.styl
     input-field.styl
 gulpFile.js
